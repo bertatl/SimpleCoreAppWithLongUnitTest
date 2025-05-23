@@ -17,6 +17,7 @@ namespace MathUtilsNUnitTests
             Assert.That(2, Is.EqualTo(res));
         }
 
+        [Test]
         public void Long_Test()
         {
             System.Threading.Thread.Sleep(660000);
